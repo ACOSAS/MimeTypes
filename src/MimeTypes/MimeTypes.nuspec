@@ -1,17 +1,16 @@
 <?xml version="1.0"?>
 <package>
   <metadata minClientVersion="3.3">
-    <id>MimeTypes</id>
-    <version>2.4.0</version>
+    <id>Acos.Felles.MimeTypes</id>
+    <version>3.0.0</version>
     <title>MimeTypes.cs</title>
-    <authors>Kristian Hellang</authors>
-    <owners>Kristian Hellang</owners>
-    <license type="expression">Apache-2.0</license>
-    <projectUrl>https://github.com/khellang/MimeTypes</projectUrl>
+    <authors>Acos AS</authors>
+    <owners>Acos AS</owners>
+    <license type="expression">Apache-2.0</license>    
     <icon>images\nuget-icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple lookup from file name/extension to MIME/media type and vice versa, generated from mime-db, which in turn is compiled from IANA, Apache and nginx's MIME types.</description>
-    <copyright>Copyright © Kristian Hellang 2021</copyright>
+    <copyright>Copyright © Acos AS</copyright>
     <developmentDependency>true</developmentDependency>
     <tags>mime mimetype mediatype file type extension</tags>
     <contentFiles>
@@ -20,9 +19,9 @@
   </metadata>
   <files>
     <file src="MimeTypes.NullableAttributes.cs.pp" target="contentFiles\cs\netstandard2.0" />
-    <file src="MimeTypes.NullableAttributes.cs.pp" target="contentFiles\cs\net472" />
+    <file src="MimeTypes.NullableAttributes.cs.pp" target="contentFiles\cs\net48" />
     <file src="MimeTypes.cs.pp" target="contentFiles\cs\netstandard2.1" />
-    <file src="MimeTypes.cs.pp" target="contentFiles\cs\netcoreapp3.0" />
+    <file src="MimeTypes.cs.pp" target="contentFiles\cs\net6.0" />
     <file src="..\..\etc\nuget-icon.png" target="images" />
   </files>
 </package>
