@@ -2,7 +2,7 @@
 <package>
   <metadata minClientVersion="3.3">
     <id>Acos.Felles.MimeTypes</id>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <title>MimeTypes.cs</title>
     <authors>Acos AS</authors>
     <owners>Acos AS</owners>
@@ -22,6 +22,7 @@
     <file src="MimeTypes.NullableAttributes.cs.pp" target="contentFiles\cs\net48" />
     <file src="MimeTypes.cs.pp" target="contentFiles\cs\netstandard2.1" />
     <file src="MimeTypes.cs.pp" target="contentFiles\cs\net6.0" />
+    <file src="MimeTypes.cs.pp" target="contentFiles\cs\net8.0" />
     <file src="..\..\etc\nuget-icon.png" target="images" />
   </files>
 </package>
